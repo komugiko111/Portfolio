@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- OGP設定を行う。
+  og:~~~~OGP設定を行うことで、SNSでシェアした際に設定したWEBページのタイトルや画像を正しく伝えるためのhtml要素を記述する。
+  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='佐藤草太 ポートフォリオ'>
+  <meta property='og:url' content='https://komugiko111.github.io/komugi.github.io/'>
+  <meta property='og:description' content='佐藤草太のポートフォリオサイトです。'>
+  <meta property="og:image" content="img/dev2.png">
+  <meta name="description" content="佐藤草太のポートフォリオサイトです" />
+  <!-- meta -->
+    
+  <!-- link 
+  このページと外部のファイルやページを関連付けるためのタグ
+  -->
+  <title>佐藤草太 ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/prof.png" />
+  <link rel=”canonical” href=”https://komugiko111.github.io/komugi.github.io/” />
+  <!-- link -->
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">佐藤草太</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+      <!-- mv --> 
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">佐藤 草太</p>
+          <p class="mv-subtitle">PORTFOLIO</p>
+          <p class="mv-text">
+            最新技術が大好きな大学生です<br class="sp-only">
+          </p>
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item">
+              <div class="works-img"><img src="img/dev2.png" alt="" /></div>
+              <p class="works-name">自己PR採点システム</p>
+              <p class="works-info">word2vecとストレングスファインダーを用いて自己PRを特徴ごとに採点できます。</p>
+            </a>
+            <a class="works-item">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">画像認識セキュリティシステム</p>
+              <p class="works-info">文字入力では問題のあるセキュリティを画像認識からアプローチする。</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">MAIN SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/html.jpg" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">HTML/CSS/JavaScript</h3>
+                <p class="skill-text">
+                  このポートフォリオはこの3つを利用しました。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/python.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">python</h3>
+                <p class="skill-text">
+                  機械学習を用いたシステムの開発で使いました。<br>
+                大学時代に最も時間を費やした言語です。
+                  </p>
+              </div>
+            </div>
+        <h2 class="title">SUB SKILL</h2>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/C.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">C/C++</h3>
+                <p class="skill-text">
+                  最初に触れたプログラミング言語であり、私のプログラミング基礎になっています。
+                  </p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/Tensorflow.jfif" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Tensorflow
+                  </h3>
+                <p class="skill-text">
+                  機械学習を扱ううえで取り扱ったことがあります。
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/prof.png" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                中学時代にロボットのプログラミングゲームでプログラミングに興味を持ち、IT分野を目指したゲーム好きな大学生です。<br>
+                  大学ではAIを用いた自然言語処理システムの開発を中心に修学しています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            
+          </p>
+          <div class="contact-list">
+            
+            <span class="contact-item">satoworkspace@gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;Sato Sota</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
